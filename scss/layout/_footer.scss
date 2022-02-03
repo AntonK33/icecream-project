@@ -1,0 +1,85 @@
+.footer{
+background: #FFF5F6;
+}
+.card-item{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 43px 20px;
+    width: 220px;
+    height: 427px;
+    border-radius: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    margin-bottom: 20px;
+    background-image: url(../img/vector2.png), url(../img/vector2.png);
+    background-position: 20px 177px, 20px 322px;
+    background-size: 180px 3px;
+    background-repeat: no-repeat;
+    
+    
+}
+.card-link{
+    display: inline-block;
+    padding: 2px 25px;
+    background-color: #C2E297;
+    border-radius: 4px;
+    margin-bottom: 25px;
+  
+}
+.address{
+ 
+}
+
+.card-article{
+font-family: DM Sans;
+font-weight: 500;
+font-size: 12px;
+line-height: 186%;
+letter-spacing: 0.04em;
+margin-bottom: 10px;
+}
+.address-text{
+font-family: DM Sans;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color: #907E82;
+}
+.ice-adress{
+    margin-bottom: 50px;
+}
+.schedule{
+    margin-bottom: 50px;
+}
+.schedule-article{
+font-family: DM Sans;
+font-weight: 500;
+font-size: 12px;
+line-height: 186%;
+letter-spacing: 0.04em;
+
+}
+.schedule-text{
+    font-family: DM Sans;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color: #907E82;
+margin-bottom: 10px;
+}
+.schedule-text:last-child{
+    margin-bottom: 0px;
+}
+.address-list{
+
+}
+.address-link{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color: #907E82;
+
+}

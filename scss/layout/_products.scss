@@ -1,0 +1,100 @@
+.section-ptoducts{
+padding-top: 121px;
+padding-bottom: 98px;
+background: #ffffff;
+}
+.ptoducts-title{
+font-family: Titan One;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+color: #FFA5BA;
+margin-bottom: 15px;
+}
+.ptoducts-text{
+font-family: Titan One;
+font-size: 34px;
+line-height: 39px;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #D41443;
+}
+.product-icecream{
+   
+    display: block;
+    min-height: 635px;
+    padding-top: 300px;
+    
+
+background-image: url(../img/home-pic.png), url(../img/fon-pink.png);
+background-repeat: no-repeat;
+background-position: 50% 31px,50% 144px  ;
+}
+.ice{  
+    position: relative;
+font-family: Titan One;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.product-dots{
+    position: absolute;
+   text-align: center;
+     
+    top:50px;
+    left:50%;
+   transform:translate(-50%,-50%) scale(1);
+}
+.card-text{
+    width: 100%;
+   text-align: center;
+margin-top: 60px;
+padding-left: 60px;
+padding-right: 60px;
+margin-bottom: 30px;
+
+font-family: DM Sans;
+font-weight: bold;
+font-size: 14px;
+line-height: 152%;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+
+}
+.arrow-link{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.arrow{
+ width:40px;  
+ height:40px;
+}
+.product-icecoffee{
+   display: block;
+    min-height: 635px;
+    padding-top: 300px;
+    
+
+background-image: url(../img/home-pic1.png), url(../img/fon-2.png);
+background-repeat: no-repeat;
+background-position: 50% 31px,50% 144px  ;
+}
+.product-milkshakes{
+     display: block;
+    min-height: 635px;
+    padding-top: 300px;
+    
+
+background-image: url(../img/home-pic2.png), url(../img/fon-3.png);
+background-repeat: no-repeat;
+background-position: 50% 31px,50% 144px  ;
+}

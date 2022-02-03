@@ -1,0 +1,28 @@
+.header{
+background-color: #FFB8CA;
+
+}
+
+.nav-container{
+  height: 60px;
+  position: relative;
+display: flex;
+align-items: center;
+background: #FFB8CA;
+
+}
+
+.logo{
+  height: 50px;  
+  width: 199px;
+}
+.burger{
+padding: 0px;
+border: none;
+display: flex;
+align-items: center;
+position: absolute;
+top:24px;
+right: 10px;
+background-color: rgba(255,255,255,.1);
+}

@@ -1,0 +1,69 @@
+.feedback{
+    padding-bottom: 170px
+};
+
+.feedback-img{
+    width: 100%;
+    justify-content: center;
+
+}
+.img-test{
+margin-top: 80px;
+margin-left: auto;
+margin-right: auto;
+}
+.feedback-thumb{
+    background-image: url(../img/apostrophe.png), url(../img/vector2.png),
+     url(../img/vector3.png),url(../img/vector4.png),url(../img/vector5.png),
+     url(../img/vector6.png),url(../img/vector7.png),url(../img/vector8.png);
+    background-repeat: no-repeat;
+    background-position: 70px 30px, 60px 70px, 60px 100px,
+    60px 130px, 60px 162px,60px 193px,60px 224px,60px 255px ,60px 290px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+background-color: #FAFAFA;
+}
+.thumb-text{
+    padding-top: 43px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 255%;
+text-align: center;
+color: #000000;
+width: 157px;
+}
+.emily{
+    font-family: DM Sans;
+font-weight: 500;
+font-size: 14px;
+line-height: 186%;
+text-align: center;
+color: #000000;
+position: relative;
+margin-top: 52px;
+}
+.emily::before{
+    content:url(../img/three-dots.svg);
+    top: -25px;
+    left: 50%;
+    
+    width: 30px;
+    height: 10px;
+    transform:translate(-50%,-50%) scale(1);
+    position: absolute;
+
+}
+.emily::after{
+    position: absolute;
+    content: url(../img/hr-dots.svg);
+    top: 50px;
+    left: 43%;
+    transform:translate(-50%,-50%) scale(1);
+    width: 30px;
+    height: 10px;
+}

@@ -1,0 +1,110 @@
+.tradition{
+    padding-top: 125px;
+    padding-bottom: 145px;
+    padding-bottom: 97px;
+    background-color: #FFF5F6;
+
+}
+.tradition-background{
+    background-image: url(../img/milk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:0px ;
+}
+.tradition-title{
+    font-family: Titan One;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFA5BA;
+    margin-bottom: 15px;
+}
+.tradition-bold{
+    font-family: Titan One;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443;
+
+}
+.tradition-img{
+    max-width: 270px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    margin-bottom: 46px;
+}
+.tradition-recept{
+    text-align: start;
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162%;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.recepto{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162%;
+    max-width: 220px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #907E82;
+    text-align: start;
+    margin-bottom: 17px;
+}
+.tradition-button{
+    
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+   
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #D41443;
+    height:44px;
+    width: 176px;
+    background: #FFFFFF;
+    border-radius: 15%/50%;
+    border: 0px;
+    margin-left: 30px;
+    margin-bottom: 39px;
+}
+.tradition-item{
+margin-bottom: 36px;
+}
+.tradition-ingradients{
+   
+    margin-bottom: 16px;
+}
+.tradition-kg{
+    font-family: Titan One;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443;
+    margin-bottom: 16px;
+}
+.tradition-text{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 170%;
+    color: #000000;
+    text-align: start;
+    margin-bottom: 16px;
+}
