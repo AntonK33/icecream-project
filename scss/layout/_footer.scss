@@ -27,9 +27,7 @@ background: #FFF5F6;
     margin-bottom: 25px;
   
 }
-.address{
- 
-}
+
 
 .card-article{
 font-family: DM Sans;
@@ -71,9 +69,7 @@ margin-bottom: 10px;
 .schedule-text:last-child{
     margin-bottom: 0px;
 }
-.address-list{
 
-}
 .address-link{
     font-family: DM Sans;
 font-style: normal;
@@ -82,4 +78,210 @@ font-size: 12px;
 line-height: 18px;
 color: #907E82;
 
+}
+.locations-link{
+  width: 161.45px;
+  height: 44px;
+  left: 79px;
+  top: 6495px;
+  
+  background: #D41342;
+  border-radius: 22px;
+  width: 115px;
+  height: 44px;
+  left: 96px;
+  top: 6495px;
+  
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+
+}
+.location-item{
+display: block;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 113px;
+}
+.franchise-link{
+    
+
+    width: 161px;
+    height: 44px;
+    left: 79px;
+    top: 6549px;
+
+    background: #FFFFFF;
+    border-radius: 22px;
+    width: 80.25px;
+    height: 44px;
+    left: 111px;
+    top: 6549px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #D41443;
+}
+
+.homemade{
+    width: 232px;
+height: 42px;
+left: 22px;
+top: 6706px;
+
+font-family: 'Titan One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-transform: uppercase;
+
+color: #FFA5BA;
+margin-bottom: 17px;
+}
+
+.with-passion{
+    width: 200px;
+    height: 76px;
+    left: 20px;
+    top: 6765px;
+    
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #D41443;
+    margin-bottom: 43px;
+}
+
+.network{
+    display: flex;
+    justify-content: flex-end;
+
+    .network__item{
+        margin-right: 28px;
+        margin-bottom: 46px;
+    }
+    &__item:last-child{
+        margin-right: 0px;
+    }
+    .network__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;       
+    cursor: pointer; 
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1) ;    
+    }
+    &__link:hover,
+    &__link:focus{
+    background-color: var(--accent-color);    
+    }
+    .network__link-style{
+    background: rgba(255, 255, 255, 0.1);
+    }            
+                
+    .network__ico{
+    display: flex;  
+    width: 32px;
+    height: 32px;
+    }
+    .network__ico_style{
+    fill:#AFB1B8 ;
+    }
+    &__link:hover svg,
+    &__link:focus svg{
+    fill:#FFFFFF ;
+    }
+}
+
+.all-rights{
+    width: 150px;
+    height: 42px;
+    left: 79px;
+    top: 7049px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 152%;
+    /* or 21px */
+    
+    text-align: center;
+    
+    color: #907E82;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 25px;
+}
+
+.footer-phone{
+display: flex;
+align-items: center;
+justify-content: end;
+margin-bottom: 43px;
+
+}
+
+.footer-phoneNumber{
+    
+    
+   
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 186%;
+    /* or 22px */
+    display: flex;
+            color: #D41443;
+}
+
+.footer-phoneText{
+   
+   display: flex;
+    margin-right: 3px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 186%;
+    /* or 22px */
+    
+    
+    
+    color: #000000;
+}
+
+.footer-line{
+    width: 100%;
+    height: 2px;
+    margin-bottom: 22px;
+}
+.locations-vector{
+    fill: black;
 }
