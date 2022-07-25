@@ -624,16 +624,9 @@ a {
 }
 
 .locations-link {
-  width: 161.45px;
-  height: 44px;
-  left: 79px;
-  top: 6495px;
+  color: #FFFFFF;
   background: #D41342;
   border-radius: 22px;
-  width: 115px;
-  height: 44px;
-  left: 96px;
-  top: 6495px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
@@ -646,7 +639,8 @@ a {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  padding: 12px 17px;
+  margin-bottom: 10px;
 }
 
 .location-item {
@@ -665,16 +659,9 @@ a {
 }
 
 .franchise-link {
-  width: 161px;
-  height: 44px;
-  left: 79px;
-  top: 6549px;
   background: #FFFFFF;
+  color: #D41443;
   border-radius: 22px;
-  width: 80.25px;
-  height: 44px;
-  left: 111px;
-  top: 6549px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
@@ -687,7 +674,19 @@ a {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: #D41443;
+  padding: 12px 32px;
+}
+
+.vector-useR {
+  width: 4px;
+  height: 8px;
+  margin-left: 13px;
+}
+
+.vector-use {
+  width: 4px;
+  height: 8px;
+  margin-left: 8px;
 }
 
 .homemade {
@@ -842,8 +841,4 @@ a {
   width: 100%;
   height: 2px;
   margin-bottom: 22px;
-}
-
-.locations-vector {
-  fill: black;
 }/*# sourceMappingURL=main.css.map */
