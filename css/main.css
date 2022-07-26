@@ -1,5 +1,6 @@
 .header {
   background-color: #FFB8CA;
+  position: relative;
 }
 
 .nav-container {
@@ -19,7 +20,58 @@
   width: 199px;
 }
 
-.burger {
+.header-mob {
+  max-width: 480px;
+}
+
+.mobile-container {
+  height: 496px;
+  width: 230px;
+  background-color: #E17992;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  display: none;
+  padding: 48px 0px;
+  position: fixed;
+  z-index: 3;
+  -webkit-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 250ms;
+       -o-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-open {
+  display: block;
+  background: #E17992;
+}
+
+.is-open .icon-menu {
+  display: block;
+  background: #E17992;
+}
+
+.is-open .icon-close {
+  display: block;
+  background: #E17992;
+}
+
+.icon-close {
+  display: none;
+  background: #E17992;
+}
+
+.is-open .icon-menu {
+  display: none;
+}
+
+.mobile-menu__button {
+  position: absolute;
   padding: 0px;
   border: none;
   display: -webkit-box;
@@ -28,10 +80,118 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
-  top: 24px;
+  top: 25px;
   right: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 20;
+  -webkit-transition-property: -webkit-transition;
+  transition-property: -webkit-transition;
+  -o-transition-property: -o-transition;
+  transition-property: transition;
+  transition-property: transition, -webkit-transition, -o-transition;
+  -webkit-transition-duration: 250ms;
+       -o-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-menu {
+  z-index: 20;
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-menu {
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heder-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.nav__item {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  -webkit-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+       -o-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 11px;
+  margin-top: 11px;
+  margin-left: 21px;
+}
+
+.nav__link {
+  color: #FFFFFF;
+}
+
+.buy-now {
+  background: #FFFFFF;
+  color: #D41443;
+  border-radius: 22px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 12px 32px;
+  margin-bottom: 32px;
+  margin-right: 21px;
+  margin-left: 21px;
+  margin-top: 23px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mobile-vector {
+  width: 4px;
+  height: 8px;
+  margin-left: 16px;
+}
+
+.mobile-line {
+  width: 100%;
+  height: 1px;
+  background-color: #E18298;
+}
+
+.nav__link_current {
+  text-decoration: none;
+  color: #D41443;
 }
 
 @media screen and (max-width: 767px) {

@@ -23,10 +23,39 @@
     <div class="container">
      <div class="nav-container">
     <a  href=""><img class="logo" src="./img/logo 1.png" alt=""></a>
-    <button class="burger" type="button"><svg width="22" height="14">
-            <use href="img/symbol-defs.svg#burger"></use>
-            <use href="img/symbol-defs.svg#close"></use>
-        </svg></button>
+    <div class="mobile-menu">
+        <button data-menu-button aria-expanded="true" type="button" class="mobile-menu__button">
+            <svg class="mobile-icon" width="22" height="14">
+                <use class="icon-menu" href="img/symbol-defs.svg#burger"></use>
+                <use class="icon-close" href="img/symbol-defs.svg#close">></use>
+            </svg>
+        </button>
+    </div>
+    <div  data-menu class="mobile-container  ">
+        <a class="buy-now" href="">Buy now<svg width="0" height="0" class="hidden">
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 10" id="Vector 1.2">
+              <path d="M1.42041 1L5.70162 5L1.42041 9" stroke="#D41443" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </symbol>
+          </svg>
+          <svg class="mobile-vector">
+            <use  xlink:href="#Vector 1.2"></use>
+          </svg></a>                           
+        <ul class="nav">
+                <div class="mobile-line"></div>
+            <li class="nav__item"><a href="" class="nav__link nav__link_current">Home</a> </li>
+                <div class="mobile-line"></div>
+            <li class="nav__item"><a href="" class="nav__link">About us</a> </li>
+                <div class="mobile-line"></div>
+            <li class="nav__item"><a href="" class="nav__link">How its maid?</a></li>
+                <div class="mobile-line"></div>
+            <li class="nav__item"><a href="" class="nav__link">Our products</a></li>
+                <div class="mobile-line"></div>
+            <li class="nav__item"><a href="" class="nav__link">Contact</a></li>
+                <div class="mobile-line"></div> 
+
+        </ul>
+       
+        
     </div>
      </div>   
     </header>
