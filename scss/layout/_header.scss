@@ -1,6 +1,22 @@
 .header{
-background-color: #FFB8CA;
+
 position: relative;
+@media screen and(max-width:767px){
+  
+      
+}
+  
+@media screen and(min-width:768px){
+  
+  background-image:url(../img/slider-pic7.png) ,  url(../img/ellipse3.png);    
+  background-position: 430px 63px, 360px  31px;   
+  background-repeat: no-repeat;
+   background-size: 171px 410px,324px 322px;
+   background-color: #FFB8CA;
+} 
+@media screen and(min-width:1280px){
+
+}
 }
 
 .nav-container{
@@ -8,13 +24,24 @@ position: relative;
   position: relative;
 display: flex;
 align-items: center;
-background: #FFB8CA;
 
+justify-content: space-between;
 }
 
 .logo{
   height: 50px;  
   width: 199px;
+  @media screen and(max-width:767px){
+    
+      
+    }
+      
+    @media screen and(min-width:768px){
+    margin-top: 37px;
+    } 
+    @media screen and(min-width:1280px){
+   
+    }
 }
 
 .header-mob{
@@ -57,6 +84,8 @@ background: #E17992;
 .is-open .icon-menu{
  display: none;
 }
+
+
 .mobile-menu__button{
 position: absolute;
 padding: 0px;
@@ -71,6 +100,18 @@ z-index: 20;
 transition-property:transition;
      transition-duration: 250ms ;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     @media screen and(max-width:767px){
+    
+      
+    }
+      
+    @media screen and(min-width:768px){
+    top: 45px;
+    right: 224px;
+    } 
+    @media screen and(min-width:1280px){
+   
+    }
        
 }
 .icon-menu{
@@ -83,7 +124,7 @@ margin-left: auto;
   }
  
   @media screen and(min-width:768px){
-display: none;
+
 
   }
 }
@@ -135,6 +176,34 @@ display: none;
   margin-left: 21px;
   margin-top: 23px;
   justify-content: center;
+}
+.buy-now-header{
+  background: #FFFFFF;
+  color: #D41443;
+  border-radius: 22px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 12px 32px;
+  
+  @media screen and(max-width:767px){
+    display: none;
+      
+  }
+    
+  @media screen and(min-width:768px){
+    margin-right: 0px;
+   margin-top: 38px;
+   margin-left: auto;
+  } 
+  @media screen and(min-width:1280px){
+ 
+  }
 }
 .mobile-vector{
   width: 4px;

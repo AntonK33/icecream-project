@@ -20,6 +20,19 @@ text-align: center;
 letter-spacing: 0.04em;
 text-transform: uppercase;
 color: #D41443;
+@media screen and(max-width:767px){
+    
+      
+}
+  
+@media screen and(min-width:768px){
+   
+
+
+} 
+@media screen and(min-width:1280px){
+
+}
 }
 .product-icecream{
    
@@ -31,6 +44,19 @@ color: #D41443;
 background-image: url(../img/home-pic.png), url(../img/fon-pink.png);
 background-repeat: no-repeat;
 background-position: 50% 31px,50% 144px  ;
+@media screen and(max-width:767px){
+    background-size: 252px 249px, 280px 485px;
+      
+}
+  
+@media screen and(min-width:768px){
+    background-size: 224px 220px, 220px 485px;
+
+
+} 
+@media screen and(min-width:1280px){
+
+}
 }
 .ice{  
     position: relative;
@@ -66,7 +92,20 @@ line-height: 152%;
 text-align: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
+@media screen and(max-width:767px){
+    
+      
+}
+  
+@media screen and(min-width:768px){
+    padding-left: 20px;
+    padding-right: 20px;
 
+
+} 
+@media screen and(min-width:1280px){
+
+}
 }
 .arrow-link{
     display: flex;
@@ -85,8 +124,22 @@ color: #FFFFFF;
     
 
 background-image: url(../img/home-pic1.png), url(../img/fon-2.png);
+
 background-repeat: no-repeat;
 background-position: 50% 31px,50% 144px  ;
+@media screen and(max-width:767px){
+    background-size: 252px 249px, 280px 485px;
+      
+}
+  
+@media screen and(min-width:768px){
+    background-size: 224px 220px, 220px 485px;
+
+
+} 
+@media screen and(min-width:1280px){
+
+}
 }
 .product-milkshakes{
      display: block;
@@ -97,4 +150,42 @@ background-position: 50% 31px,50% 144px  ;
 background-image: url(../img/home-pic2.png), url(../img/fon-3.png);
 background-repeat: no-repeat;
 background-position: 50% 31px,50% 144px  ;
+@media screen and(max-width:767px){
+    background-size: 252px 249px, 280px 485px;
+      
+}
+  
+@media screen and(min-width:768px){
+    background-size: 224px 220px, 220px 485px;
+
+
+} 
+@media screen and(min-width:1280px){
+
+}
+}
+
+.card-direct{
+   
+    @media screen and(max-width:767px){
+        display: flex;
+        flex-direction: column;
+          
+      }
+        
+      @media screen and(min-width:768px){
+        display: flex;
+    flex-direction: row;
+      } 
+      @media screen and(min-width:1280px){
+     
+      }
+}
+
+.card-direct-list{
+width: 220px;
+margin-right: 20px;
+}
+.card-direct-list:last-child{
+    margin-right: 0px;
 }

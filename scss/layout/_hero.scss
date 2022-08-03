@@ -1,11 +1,13 @@
 .hero{
     
     
-    
-    background-color: #FFB8CA;
-   
+     
 }
 .container-background{
+    
+
+
+ @media screen and(max-width:767px){
     height:100wh;
     padding-top: 127px;
     padding-bottom: 160px;
@@ -13,6 +15,18 @@
 background-position: 127px 34px, 50px  20px;   
 background-repeat: no-repeat;
  background-size: 171px 410px,300px 344px;
+      
+  }
+    
+  @media screen and(min-width:768px){
+    height:100wh;
+    padding-top: 127px;
+    padding-bottom: 160px;
+
+  } 
+  @media screen and(min-width:1280px){
+ 
+  }
 }
 .hero-box{
 margin-bottom: 19px;

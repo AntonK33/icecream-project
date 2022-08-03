@@ -23,6 +23,13 @@
     <div class="container">
      <div class="nav-container">
     <a  href=""><img class="logo" src="./img/logo 1.png" alt=""></a>
+    <div>
+        <a class="buy-now-header" href="">Buy now<svg width="0" height="0" class="hidden">
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 10" id="Vector 1.2">
+              <path d="M1.42041 1L5.70162 5L1.42041 9" stroke="#D41443" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </symbol>
+          </svg>                   
+    </div>
     <div class="mobile-menu">
         <button data-menu-button aria-expanded="true" type="button" class="mobile-menu__button">
             <svg class="mobile-icon" width="22" height="14">
@@ -31,6 +38,7 @@
             </svg>
         </button>
     </div>
+    
     <div  data-menu class="mobile-container  ">
         <a class="buy-now" href="">Buy now<svg width="0" height="0" class="hidden">
             <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 10" id="Vector 1.2">
@@ -57,63 +65,76 @@
        
         
     </div>
-     </div>   
+</div>
+
+     <section class="hero">
+        <div class="container container-background">
+           <div class="hero-box">
+               <h1 class="hero-title">ice cream</h1>
+               <h2 class="hero-title">made with</h2>
+               <h2 class="hero-title-red">passion</h2>
+           </div>
+            
+            <div class="heder-button">
+           <button class="heder-button-one" type="button">Products</button>
+           <button class="heder-button-two" type="button">How it’s made?</button>
+            </div>    
+           
+        </div>
+   
+    </section>
+   
     </header>
    
- <section class="hero">
-     <div class="container container-background">
-        <div class="hero-box">
-            <h1 class="hero-title">ice cream</h1>
-            <h2 class="hero-title">made with</h2>
-            <h2 class="hero-title-red">passion</h2>
-        </div>
-         
-         <div class="heder-button">
-        <button class="heder-button-one" type="button">Products</button>
-        <button class="heder-button-two" type="button">How it’s made?</button>
-         </div>    
-        
-     </div>
-
- </section>
-
+ 
 
 <!--PRODUCTS-->
 <section class="section-ptoducts">
     <div class="container">
     <h2 class="ptoducts-title">100% natural</h2>
     <p class="ptoducts-text">products</p>
-    <div class="product-icecream">
-        <p class="ice">ice cream <svg class="product-dots" width=26px height="6">
-                <use href="img/symbol-defs.svg#three-dots"></use>
-            </svg></p>
-    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et. dolore magna
-        aliqua facilisis.
-    </p>
-    <a class="arrow-link"  href=""><img class="arrow"  src="./img/arrow-right.png" ></img></a>
-    </div>
+    <ul class="card-direct">
+        <li class="card-direct-list">
+            <div class="product-icecream">
+                <p class="ice">ice cream <svg class="product-dots" width=26px height="6">
+                        <use href="img/symbol-defs.svg#three-dots"></use>
+                    </svg></p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et. dolore magna
+                aliqua facilisis.
+            </p>
+            <a class="arrow-link"  href=""><img class="arrow"  src="./img/arrow-right.png" ></img></a>
+            </div>
+        </li>
+        <li class="card-direct-list">
+            <div class="product-icecoffee">
+                <p class="ice">ice coffee<svg class="product-dots" width=26px height="6">
+                        <use href="img/symbol-defs.svg#three-dots"></use>
+                    </svg></p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et. dolore magna
+                    aliqua facilisis.
+                </p>
+                <a class="arrow-link" href=""><img class="arrow" src="./img/arrow-right.png"></img></a>
+            </div>
+        </li>
+        <li class="card-direct-list">
+            <div class="product-milkshakes">
+                <p class="ice">milkshakes<svg class="product-dots" width=26px height="6">
+                        <use href="img/symbol-defs.svg#three-dots"></use>
+                    </svg></p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et. dolore magna
+                    aliqua facilisis.
+                </p>
+                <a class="arrow-link" href=""><img class="arrow" src="./img/arrow-right.png"></img></a>
+            </div>
+        </li>
+    </ul>
+    
 
-    <div class="product-icecoffee">
-        <p class="ice">ice coffee<svg class="product-dots" width=26px height="6">
-                <use href="img/symbol-defs.svg#three-dots"></use>
-            </svg></p>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et. dolore magna
-            aliqua facilisis.
-        </p>
-        <a class="arrow-link" href=""><img class="arrow" src="./img/arrow-right.png"></img></a>
-    </div>
-    <div class="product-milkshakes">
-        <p class="ice">milkshakes<svg class="product-dots" width=26px height="6">
-                <use href="img/symbol-defs.svg#three-dots"></use>
-            </svg></p>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et. dolore magna
-            aliqua facilisis.
-        </p>
-        <a class="arrow-link" href=""><img class="arrow" src="./img/arrow-right.png"></img></a>
-    </div>
+    
+    
     </div>
 </section>
 <!--tradition and love-->
@@ -323,27 +344,14 @@
         </li>        
     </ul>
 </div>
-<div>
-    <ul class="footer-phone">
-        <li>
-            <p class="footer-phoneText">Feel free to contact</p>
-        </li>
-        <li>
-            <a class="footer-phoneNumber" href="tel:+61 (0) 383 766 284"> +61 (0) 383 766 284</a>
-        </li>
-    </ul>
+<div class="footer-phone" >
+    <p class="footer-phoneText">Feel free to contact<a class="footer-phoneNumber" href="tel:+61 (0) 383 766 284"> +61 (0) 383 766 284</a></p>
 </div>
 
-
-
-
-    </div>
+   
     <img width="" height="" class="footer-line" src="./img/Vector8.png" alt="">
 <p class="all-rights">© 2019 - IceCream.All <br> Rights Reserved. </p>
-<p class="footer-phoneText">Feel free to contact<a class="footer-phoneNumber" href="tel:+61 (0) 383 766 284"> +61 (0) 383 766 284</a></p>
-
-
-
+</div>
     </footer>
 
 
