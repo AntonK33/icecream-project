@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    background-image: url(../img/slider-pic7.png), url(../img/ellipse3.png);
+    background-image: url(../img/slider-pic5.1.png), url(../img/slider-pic7.png), url(../img/ellipse3.png);
     background-position: 430px 63px, 360px  31px;
     background-repeat: no-repeat;
     -webkit-background-size: 171px 410px,324px 322px;
@@ -21,6 +21,7 @@
 
 .nav-container {
   height: 60px;
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -51,15 +52,14 @@
 }
 
 .mobile-container {
-  height: 496px;
+  height: 527px;
   width: 230px;
   background-color: #E17992;
   position: absolute;
-  right: 0%;
+  right: -20px;
   top: 0%;
   display: none;
   padding: 48px 0px;
-  position: fixed;
   z-index: 3;
   -webkit-transition-property: background-color;
   -o-transition-property: background-color;
@@ -109,7 +109,7 @@
       -ms-flex-align: center;
           align-items: center;
   top: 25px;
-  right: 10px;
+  right: 0px;
   background-color: rgba(255, 255, 255, 0);
   z-index: 20;
   -webkit-transition-property: -webkit-transition;
@@ -234,23 +234,15 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
     text-align: center;
-    padding: 12px 32px;
+    padding: 12px 37px;
   }
 }
 
 .mobile-vector {
   width: 4px;
   height: 8px;
-  margin-left: 16px;
+  margin-left: 13px;
 }
 
 .mobile-line {
@@ -266,11 +258,9 @@
 
 @media screen and (max-width: 767px) {
   .container-background {
-    height: 100wh;
-    padding-top: 127px;
-    padding-bottom: 160px;
+    padding-bottom: 158px;
     background-image: url(../img/slider-pic7.png), url(../img/ellipse.png);
-    background-position: 127px 34px, 50px 20px;
+    background-position: 127px 117px, 50px 103px;
     background-repeat: no-repeat;
     -webkit-background-size: 171px 410px, 300px 344px;
             background-size: 171px 410px, 300px 344px;
@@ -280,13 +270,12 @@
 @media screen and (min-width: 768px) {
   .container-background {
     height: 100wh;
-    padding-top: 127px;
-    padding-bottom: 160px;
-    background-image: url(../img/slider-pic7.png), url(../img/ellipse3.png);
-    background-position: 430px 63px, 360px 31px;
+    padding-bottom: 51px;
+    background-image: url(../img/Ellipse1.png), url(../img/Ellipse1.png), url(../img/slider-pic4.1.png), url(../img/slider-pic5.1.png), url(../img/slider-pic7.png), url(../img/ellipse3.png);
+    background-position: 718px 151px, 718px 94px, 566px 266px, 34px 245px, 378px 63px, 307px 31px;
     background-repeat: no-repeat;
-    -webkit-background-size: 171px 410px, 324px 322px;
-            background-size: 171px 410px, 324px 322px;
+    -webkit-background-size: 16px 16px,16px 16px,168px 133px, 154px 126px, 143px 336px, 324px 322px;
+            background-size: 16px 16px,16px 16px,168px 133px, 154px 126px, 143px 336px, 324px 322px;
     background-color: #FFB8CA;
   }
 }
@@ -295,26 +284,56 @@
   margin-bottom: 19px;
 }
 
-.hero-title {
-  font-family: Titan One;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  line-height: 30px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #FFFFFF;
+@media screen and (max-width: 767px) {
+  .hero-title {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
 }
 
-.hero-title-red {
-  font-family: Titan One;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 46px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #D41443;
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-title-red {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 46px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title-red {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443;
+  }
 }
 
 .heder-button {
@@ -385,6 +404,82 @@
 }
 
 @media screen and (max-width: 767px) {
+  .passion-title {
+    margin-top: 160px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .passion-title {
+    margin-top: 25px;
+  }
+}
+
+.header-nambers-box {
+  position: absolute;
+  left: 713px;
+  top: 96px;
+}
+
+.milk-box-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 150%;
+  text-align: right;
+  width: 114px;
+  height: 48px;
+}
+
+.header-milk-box {
+  width: 114px;
+  margin-left: 154px;
+  margin-top: 66px;
+}
+
+.arrow-header {
+  width: 18px;
+  height: 18px;
+}
+
+.arrow-link-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-top: 7px;
+}
+
+.numders-style {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: 'Titan One';
+  color: #D41443;
+  text-align: right;
+}
+
+.numders-text-style {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+.numders-list {
+  margin-bottom: 14px;
+}
+
+@media screen and (max-width: 767px) {
   .section {
     padding: 60px 0;
   }
@@ -403,8 +498,8 @@
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
