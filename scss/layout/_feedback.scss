@@ -13,15 +13,31 @@ margin-left: auto;
 margin-right: auto;
 }
 .feedback-thumb{
-    background-image: url(../img/apostrophe.png), url(../img/vector2.png),
-     url(../img/vector3.png),url(../img/vector4.png),url(../img/vector5.png),
-     url(../img/vector6.png),url(../img/vector7.png),url(../img/vector8.png);
-    background-repeat: no-repeat;
-    background-position: 70px 30px, 60px 70px, 60px 100px,
-    60px 130px, 60px 162px,60px 193px,60px 224px,60px 255px ,60px 290px;
-    margin-top: 29px;
-    margin-bottom: 29px;
-background-color: #FAFAFA;
+    @media screen and(max-width:767px) {
+            background-image: url(../img/apostrophe.png), url(../img/vector2.png),
+                    url(../img/vector3.png), url(../img/vector4.png), url(../img/vector5.png),
+                    url(../img/vector6.png), url(../img/vector7.png), url(../img/vector8.png);
+                background-repeat: no-repeat;
+                background-position: 70px 30px, 60px 70px, 60px 100px,
+                    60px 130px, 60px 162px, 60px 193px, 60px 224px, 60px 255px, 60px 290px;
+                margin-top: 29px;
+                margin-bottom: 29px;
+                background-color: #FAFAFA;
+        }
+    
+        @media screen and(min-width:768px) {
+        background-image: url(../img/apostrophe.png), url(../img/vector2.png),
+                url(../img/vector3.png), url(../img/vector4.png);
+                
+            background-repeat: no-repeat;
+            background-position: 70px 30px, 60px 70px, 60px 100px,60px 130px, 60px 162px;
+            margin-top: 29px;
+            margin-bottom: 29px;
+            background-color: #FAFAFA;
+        }
+    
+        @media screen and(min-width:1280px) {}
+    
 }
 .thumb-text{
     padding-top: 43px;

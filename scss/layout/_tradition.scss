@@ -1,93 +1,265 @@
 .tradition{
-    padding-top: 125px;
-    padding-bottom: 145px;
-    padding-bottom: 97px;
-    background-color: #FFF5F6;
-
+    
+    @media screen and(max-width:767px){
+        padding-top: 125px;
+            padding-bottom: 145px;
+            padding-bottom: 97px;
+            background-color: #FFF5F6;
+    }
+        @media screen and(min-width:768px){
+            padding-top: 125px;
+                padding-bottom: 145px;
+                padding-bottom: 140px;
+                background-color: #FFF5F6;
+        }
 }
 .tradition-background{
-    background-image: url(../img/milk.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position:0px ;
+    
+    @media screen and(max-width:767px){
+        background-image: url(../img/milk.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: 0px;
+    }
+       
 }
 .tradition-title{
-    font-family: Titan One;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFA5BA;
-    margin-bottom: 15px;
+    
+    @media screen and(max-width:767px) {
+            font-family: Titan One;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFA5BA;
+                margin-bottom: 15px;
+        }
+    
+        @media screen and(min-width:768px) {
+            font-family: 'Titan One';
+                font-size: 26px;
+                line-height: 30px;   
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFA5BA;
+                margin-bottom: 16px;
+        }
 }
 .tradition-bold{
-    font-family: Titan One;
-    font-size: 34px;
-    line-height: 39px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #D41443;
+   
+    @media screen and(max-width:767px){
+        font-family: Titan One;
+            font-size: 34px;
+            line-height: 39px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #D41443;
+    }
+        @media screen and(min-width:768px){
+            display: none;
+        }
+}
 
+.tradition-made-tablet{
+    @media screen and(max-width:767px){
+        display: none;
+    }
+        @media screen and(min-width:768px){
+            font-family: 'Titan One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 55px;
+                            
+                text-align: center;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+            
+                color: #D41443;
+                margin-bottom: 50px;
+        }
+    
+}
+
+.tradition-box{
+    @media screen and(max-width:767px){
+        display: flex;
+            flex-direction: column;
+    }
+         @media screen and(min-width:768px){
+            display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-bottom: 62px;
+         }
+}
+.tradition-img-box{
+    @media screen and(max-width:767px){
+
+    }
+        @media screen and(min-width:768px){
+            width: 340px;
+        }
+}
+.tradition-text-box{
+    @media screen and(max-width:767px) {}
+    
+        @media screen and(min-width:768px) {
+            width: 340px;
+        }
 }
 .tradition-img{
-    max-width: 270px;
-    
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 26px;
-    margin-bottom: 46px;
+    @media screen and(max-width:767px){
+        max-width: 270px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 26px;
+            margin-bottom: 46px;
+    }
+        @media screen and(min-width:768px){
+            max-width: 270px;
+               margin-left: auto;
+               margin-right: 8px;
+                
+        }
 }
 .tradition-recept{
-    text-align: start;
-    max-width: 220px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: DM Sans;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 162%;
-    color: #000000;
-    margin-bottom: 40px;
+    @media screen and(max-width:767px){
+        text-align: start;
+            max-width: 220px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: DM Sans;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 162%;
+            color: #000000;
+            margin-bottom: 40px;
+    }
+        @media screen and(min-width:768px){
+            text-align: start;
+                max-width: 340px;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: DM Sans;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 162%;
+                color: #000000;
+                margin-bottom: 40px;
+                margin-top: 50px;
+                margin-left: 8px;
+        }
+
 }
 .recepto{
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 162%;
-    max-width: 220px;
-    margin-right: auto;
-    margin-left: auto;
-    color: #907E82;
-    text-align: start;
-    margin-bottom: 17px;
+    @media screen and(max-width:767px){
+        font-family: DM Sans;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 162%;
+            max-width: 220px;
+            margin-right: auto;
+            margin-left: auto;
+            color: #907E82;
+            text-align: start;
+            margin-bottom: 17px;
+    }
+         @media screen and(min-width:768px){
+            font-family: DM Sans;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 162%;
+                max-width:340px;
+                margin-right: auto;
+                margin-left: auto;
+                color: #907E82;
+                text-align: start;
+                margin-left: 8px;
+                
+         }
 }
 .tradition-button{
-    
-    font-family: DM Sans;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
-   
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    color: #D41443;
-    height:44px;
-    width: 176px;
-    background: #FFFFFF;
-    border-radius: 15%/50%;
-    border: 0px;
-    margin-left: 30px;
-    margin-bottom: 39px;
+    @media screen and(max-width:767px){
+        font-family: DM Sans;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+        
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            color: #D41443;
+            height: 44px;
+            width: 176px;
+            background: #FFFFFF;
+            border-radius: 15%/50%;
+            border: 0px;
+            margin-left: 30px;
+            margin-bottom: 39px;
+    }
+        @media screen and(min-width:768px){
+            font-family: DM Sans;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 18px;
+            
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                color: #D41443;
+                height: 44px;
+                width: 176px;
+                background: #FFFFFF;
+                border-radius: 15%/50%;
+                border: 0px;
+                margin-left: auto;
+                margin-right:165px;
+                margin-bottom: 66px;
+                display: block;
+        }
 }
+.tradition-list{
+    @media screen and(max-width:767px) {
+            
+        }
+    
+        @media screen and(min-width:768px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+}
+
 .tradition-item{
-margin-bottom: 36px;
+
+    @media screen and(max-width:767px){
+    margin-bottom: 36px;
+    }
+        @media screen and(min-width:768px){
+          margin-right: 60px;
+        }
+}
+.tradition-item:last-child{
+    @media screen and(max-width:767px) {
+           
+        }
+    
+        @media screen and(min-width:768px) {
+            margin-right: 0px;
+        }
 }
 .tradition-ingradients{
-   
-    margin-bottom: 16px;
+@media screen and(max-width:767px) {
+        margin-bottom: 16px;
+    }
+
+    @media screen and(min-width:768px) {}
+    margin-bottom: 36px;
 }
 .tradition-kg{
     font-family: Titan One;
@@ -99,12 +271,28 @@ margin-bottom: 36px;
     margin-bottom: 16px;
 }
 .tradition-text{
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 170%;
-    color: #000000;
-    text-align: start;
-    margin-bottom: 16px;
+    
+    @media screen and(max-width:767px) {
+            font-family: DM Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 170%;
+                color: #000000;
+                text-align: start;
+                width: 230px;
+        }
+    
+        @media screen and(min-width:768px) {
+            font-family: DM Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 170%;
+                color: #000000;
+                text-align: start;
+                width: 180px;
+        }
+    
+        
 }

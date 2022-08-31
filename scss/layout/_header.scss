@@ -53,19 +53,37 @@ justify-content: space-between;
 }   
 
 .mobile-container{
- height: 527px;
- width: 230px;
- background-color:#E17992;
- position: absolute;
- right: -20px;
- top: 0%;
- display: none;
- padding: 48px 0px;
  
- z-index: 3;
-  transition-property:background-color;
-     transition-duration: 250ms ;
-     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @media screen and(max-width:767px){
+        height: 527px;
+          width: 230px;
+          background-color: #E17992;
+          position: absolute;
+          right: -20px;
+          top: 0%;
+          display: none;
+          padding: 48px 0px;
+        
+          z-index: 3;
+          transition-property: background-color;
+          transition-duration: 250ms;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+             @media screen and(min-width:768px){
+              height: 1020px;
+                width: 230px;
+                background-color: #E17992;
+                position: absolute;
+                right: -35px;
+                top: 0%;
+                display: none;
+                padding: 48px 0px;
+              
+                z-index: 3;
+                transition-property: background-color;
+                transition-duration: 250ms;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+             }
 }
 
 .is-open {
@@ -375,9 +393,17 @@ margin-left: auto;
 }
 
 .header-nambers-box{
-  position: absolute;
-  left: 713px;
-  top: 96px;
+  @media screen and(max-width:767px){
+    display: none;
+  }
+    @media screen and(min-width:768px){
+      position: absolute;
+        right: 6px;
+        top: 96px;
+        
+    }
+ 
+
 }
 
 .milk-box-text{
@@ -387,15 +413,22 @@ margin-left: auto;
     font-weight: 400;
     font-size: 8px;
     line-height: 150%;
-    text-align: right;  
+    color: #FFFFFF;
     
     width: 114px;
     height: 48px;
 }
 .header-milk-box{
-  width: 114px;
-  margin-left: 154px;
-  margin-top: 66px;
+  @media screen and(max-width:767px) {
+      display: none;
+    }
+  
+    @media screen and(min-width:768px) {
+      width: 114px;
+        margin-left: 154px;
+        margin-top: 66px;
+    }
+  
 }
 .arrow-header {
   width: 18px;
