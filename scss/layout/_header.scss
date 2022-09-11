@@ -24,12 +24,36 @@
 
 
 .nav-container{
-  height: 60px;
-  position: relative;
-display: flex;
-align-items: center;
 
-justify-content: space-between;
+@media screen and(max-width:767px) {
+    height: 60px;
+      position: relative;
+      display: flex;
+      align-items: center;
+    
+      justify-content: space-between;
+
+  }
+
+  @media screen and(min-width:768px) {
+      height: 60px;
+        position: relative;
+        display: flex;
+        align-items: center;
+      
+        justify-content: space-between;
+    
+  }
+
+  @media screen and(min-width:1280px) {
+      height: 60px;
+        position: relative;
+        display: flex;
+        align-items: center;
+      
+        justify-content: space-between;
+        padding-top: 37px;
+  }
 }
 
 .logo{
@@ -44,7 +68,7 @@ justify-content: space-between;
     margin-top: 37px;
     } 
     @media screen and(min-width:1280px){
-   
+  margin-top: 0px;
     }
 }
 
@@ -132,7 +156,7 @@ transition-property:transition;
     right: 224px;
     } 
     @media screen and(min-width:1280px){
-   
+   display: none;
     }
        
 }
@@ -156,7 +180,43 @@ margin-left: auto;
    
 }
 }
+.nav-desktop{
+  @media screen and(max-width:767px) {
+  display: none;
+     
+    }
+  
+    @media screen and(min-width:768px) {
+      display: none;
+    }
+         @media screen and(min-width:1280px){
+          display: flex;
+          margin-left: 110px;
+         }
+  }
+  
+ .nav__item-desktop {
 
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 21px;
+   display: flex;
+   align-items: center;
+
+   color: #FFFFFF;
+   transition-property: color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+   
+   margin-right: 35px;
+
+ }
+.nav__item-desktop:last-child{
+  margin-right: 0px;
+}
 .nav__item{
     
   font-family: 'DM Sans';
@@ -225,7 +285,8 @@ margin-left: auto;
       padding: 12px 37px;
   } 
   @media screen and(min-width:1280px){
- 
+  margin-right: 69px;
+    margin-top: 0px;
   }
 }
 
@@ -272,22 +333,40 @@ margin-left: auto;
     background-image:url(../img/Ellipse1.png),url(../img/Ellipse1.png),url(../img/slider-pic4.1.png), url(../img/slider-pic5.1.png), url(../img/slider-pic7.png), url(../img/ellipse3.png);
     background-position:718px 151px, 718px 94px, 566px 266px, 34px 245px, 378px 63px, 307px 31px;
     background-repeat: no-repeat;
-    background-size:16px 16px,16px 16px,168px 133px, 154px 126px, 143px 336px, 324px 322px;
+    background-size:16px 16px,16px 16px,168px 133px, 124px 126px, 143px 336px, 324px 322px;
     background-color: #FFB8CA;
   }
 
-  @media screen and(min-width:1280px) {}
+  @media screen and(min-width:1280px) {
+    height: 100wh;
+    
+      padding-bottom: 83px;
+      background-image: url(../img/Ellipse1.png), url(../img/Ellipse1.png), url(../img/slider-pic4.1.png), url(../img/slider-pic5.1.png), url(../img/slider-pic7.png), url(../img/ellipse3.png);
+      background-position: 1070px 155px, 1070px 240px, 832px 433px, 77px 429px, 548px 108px, 429px 52px;
+      background-repeat: no-repeat;
+      background-size: 30px 30px, 30px 30px, 293px 232px, 188px 191px, 236px 557px, 538px 538px;
+      background-color: #FFB8CA;
+  }
 }
 
 .hero-box {
-  margin-bottom: 19px;
+  
+  @media screen and(max-width:767px){
+    margin-bottom: 19px;
+  }
+    @media screen and(min-width:768px){
+      margin-bottom: 19px;
+    }
+        @media screen and(min-width:1280px){
+          margin-bottom: 25px;
+          
+        }
 }
 
 .hero-title {
   @media screen and(max-width:767px){
   font-family: Titan One;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   letter-spacing: 0.04em;
@@ -296,22 +375,31 @@ margin-left: auto;
   }
     @media screen and(min-width:768px){
       font-family: Titan One;
-        font-style: normal;
-        font-weight: normal;
+        font-weight: 400;
         font-size: 22px;
         line-height: 25px;
         letter-spacing: 0.04em;
         text-transform: uppercase;
         color: #FFFFFF;
     }
+        @media screen and(min-width:1280px) {
+          font-family: Titan One;
+          font-weight: 400;
+          font-style: normal;
+            font-size: 38px;
+            line-height: 44px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
 }
 
 .hero-title-red {
   
     @media screen and(max-width:767px) {
     font-family: Titan One;
-      font-style: normal;
-      font-weight: normal;
+      
+      font-weight: 400;
       font-size: 48px;
       line-height: 46px;
       letter-spacing: 0.04em;
@@ -322,14 +410,24 @@ margin-left: auto;
     
       @media screen and(min-width:768px) {
         font-family: Titan One;
-          font-style: normal;
-          font-weight: normal;
+          font-weight: 400;
           font-size: 40px;
           line-height: 31px;
           letter-spacing: 0.04em;
           text-transform: uppercase;
           color: #D41443;
       }
+            @media screen and(min-width:1280px) {
+              font-family: Titan One;
+              font-weight: 400;
+              
+                font-size: 58px;
+                line-height: 52px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                color: #D41443;
+              
+            }
     }
     
     
@@ -343,43 +441,122 @@ margin-left: auto;
 
 
 .heder-button-one {
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 10px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #FFFFFF;
-  width: 64px;
-  height: 24px;
-  border-radius: 15%/50%;
-  background-color: #D41443;
-  border: none;
-  margin-right: 8px;
-  display: flex;
-  justify-content: center;
+  @media screen and(max-width:767px){
+    font-family: DM Sans;
+      font-weight: 400;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 8px;
+      line-height: 10px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      width: 64px;
+      height: 24px;
+      border-radius: 15%/50%;
+      background-color: #D41443;
+      border: none;
+      margin-right: 8px;
+      display: flex;
+      justify-content: center;
+  }
+    @media screen and(min-width:768px){
+      font-family: DM Sans;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 10px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        width: 64px;
+        height: 24px;
+        border-radius: 15%/50%;
+        background-color: #D41443;
+        border: none;
+        margin-right: 8px;
+        display: flex;
+        justify-content: center;
+    }
+        @media screen and(min-width:1280px){
+          font-family: DM Sans;
+            font-weight: 400;
+            
+            font-size: 14px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+            width: 102px;
+            height: 40px;
+            border-radius: 20%/50%;
+            background-color: #D41443;
+            border: none;
+            margin-right: 15px;
+            display: flex;
+            justify-content: center;
+        }
 }
 
 .heder-button-two {
+  @media screen and(max-width:767px){
+    font-family: DM Sans;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 10px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #D41443;
+      width: 82px;
+      height: 24px;
+      border-radius: 15%/50%;
+      background-color: #FFFFFF;
+      border: none;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  }
+    @media screen and(min-width:768px){
+      font-family: DM Sans;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #D41443;
+        width: 82px;
+        height: 24px;
+        border-radius: 15%/50%;
+        background-color: #FFFFFF;
+        border: none;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+@media screen and(min-width:1280px){
   font-family: DM Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 10px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #D41443;
-  width: 82px;
-  height: 24px;
-  border-radius: 15%/50%;
-  background-color: #FFFFFF;
-  border: none;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #D41443;
+    width: 138px;
+    height: 40px;
+    border-radius: 20%/60%;
+    background-color: #FFFFFF;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 }
 
 .passion-title{
@@ -390,6 +567,10 @@ margin-left: auto;
      @media screen and(min-width:768px){
       margin-top: 25px;
      }
+         @media screen and(min-width:1280px){
+          margin-top: 94px;
+          margin-left: 69px;
+         }
 }
 
 .header-nambers-box{
@@ -402,21 +583,41 @@ margin-left: auto;
         top: 96px;
         
     }
- 
+ @media screen and(min-width:1280px){
+  position: absolute;
+    right: 69px;
+    top: 160px;
+ }
 
 }
 
 .milk-box-text{
-  
-  font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 8px;
-    line-height: 150%;
-    color: #FFFFFF;
-    
-    width: 114px;
-    height: 48px;
+  @media screen and(max-width:767px){
+
+  }
+     @media screen and(min-width:768px){
+      font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 150%;
+        color: #FFFFFF;
+      
+        width: 114px;
+        height: 48px;
+     }
+        @media screen and(min-width:1280px){
+          font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            color: #FFFFFF;
+          
+            width: 200px;
+            height: 78px;
+        }
+
 }
 .header-milk-box{
   @media screen and(max-width:767px) {
@@ -428,11 +629,22 @@ margin-left: auto;
         margin-left: 154px;
         margin-top: 66px;
     }
-  
+        @media screen and(min-width:1280px){
+          width:200px;
+            margin-left: 180px;
+            margin-top: 112px;
+        }
+    
 }
 .arrow-header {
-  width: 18px;
-  height: 18px;
+  @media screen and(min-width:768px){
+    width: 18px;
+      height: 18px;
+  }
+     @media screen and(min-width:1280px){
+      width: 26px;
+        height: 26px;
+     }
 }
 .arrow-link-header {
   display: flex;
@@ -441,23 +653,49 @@ margin-left: auto;
 }
 
 .numders-style{
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-family: 'Titan One';
-  color: #D41443;
-  text-align: right;
+  @media screen and(min-width:768px) {
+    font-weight: 400;
+      font-size: 28px;
+      line-height: 32px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-family: 'Titan One';
+      color: #D41443;
+      text-align: right;
+    }
+  
+    @media screen and(min-width:1280px) {
+      font-weight: 400;
+        font-size: 46px;
+        line-height: 53px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        font-family: 'Titan One';
+        color: #D41443;
+        text-align: right;
+    }
+  
 }
 
 .numders-text-style{
-  font-family: 'DM Sans';
-    font-weight: 400;
-  font-size: 8px;
-  line-height: 10px;
-    color: #FFFFFF;
-    text-align: right;
+  @media screen and(min-width:768px) {
+      font-family: 'DM Sans';
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #FFFFFF;
+        text-align: right;
+    }
+  
+    @media screen and(min-width:1280px) {
+      font-family: 'DM Sans';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        text-align: right;
+    }
+  
 }
 
 .numders-list{

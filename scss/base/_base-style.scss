@@ -15,14 +15,14 @@ padding: 60px 0;
 
 
 .container {
-  padding-left: 20px;
-  padding-right: 20px;
+ 
   margin-left: auto;
   margin-right: auto; 
 
  @media screen and(max-width:767px){
   max-width:320px;
-  
+        padding-left: 20px;
+        padding-right: 20px;
 }
   
 @media screen and(min-width:768px){
@@ -31,8 +31,9 @@ padding: 60px 0;
   padding-right:34px;
 } 
 @media screen and(min-width:1280px){
- width: 1200px;
-  
+        width: 1200px;
+        padding-left: 46px;
+        padding-right: 46px;
 }
 }
 
