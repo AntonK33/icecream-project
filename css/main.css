@@ -408,7 +408,7 @@
 
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 3), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .container-background {
-    background-image: url(../img/slider-pic7.1@3x.png), url(../img/ellipse3@2x.png);
+    background-image: url(../img/slider-pic7.1@3x.png), url(../img/ellipse3@3x.png);
   }
 }
 
