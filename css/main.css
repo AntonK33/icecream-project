@@ -6,11 +6,6 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    background-image: url(../img/slider-pic5.1.png), url(../img/slider-pic7.png), url(../img/ellipse3.png);
-    background-position: 430px 63px, 360px  31px;
-    background-repeat: no-repeat;
-    -webkit-background-size: 171px 410px,324px 322px;
-            background-size: 171px 410px,324px 322px;
     background-color: #FFB8CA;
   }
 }
@@ -405,11 +400,23 @@
   }
 }
 
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .container-background {
+    background-image: url(../img/slider-pic7.1@2x.png), url(../img/ellipse3@2x.png);
+  }
+}
+
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 3), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .container-background {
+    background-image: url(../img/slider-pic7.1@3x.png), url(../img/ellipse3@2x.png);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container-background {
     height: 100wh;
     padding-bottom: 51px;
-    background-image: url(../img/Ellipse1.png), url(../img/Ellipse1.png), url(../img/slider-pic4.1.png), url(../img/slider-pic5.1.png), url(../img/slider-pic7.png), url(../img/ellipse3.png);
+    background-image: url(../img/Ellipse1T.png), url(../img/Ellipse1T.png), url(../img/slider-pic4T.png), url(../img/slider-pic5.1T.png), url(../img/slider-pic7T.png), url(../img/ellipse3T.png);
     background-position: 718px 151px, 718px 94px, 566px 266px, 34px 245px, 378px 63px, 307px 31px;
     background-repeat: no-repeat;
     -webkit-background-size: 16px 16px,16px 16px,168px 133px, 124px 126px, 143px 336px, 324px 322px;
@@ -418,16 +425,28 @@
   }
 }
 
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .container-background {
+    background-image: url(../img/Ellipse1T@2x.png), url(../img/Ellipse1T@2x.png), url(../img/slider-pic4T@2x.png), url(../img/slider-pic5.1T@2x.png), url(../img/slider-pic7T@2x.png), url(../img/ellipse3T@2x.png);
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .container-background {
     height: 100wh;
     padding-bottom: 83px;
-    background-image: url(../img/Ellipse1.png), url(../img/Ellipse1.png), url(../img/slider-pic4.1.png), url(../img/slider-pic5.1.png), url(../img/slider-pic7.png), url(../img/ellipse3.png);
+    background-image: url(../img/Ellipse1D.png), url(../img/Ellipse1D.png), url(../img/slider-pic4D.png), url(../img/slider-pic5.1D.png), url(../img/slider-pic7D.png), url(../img/ellipse3D.png);
     background-position: 1070px 155px, 1070px 240px, 832px 433px, 77px 429px, 548px 108px, 429px 52px;
     background-repeat: no-repeat;
     -webkit-background-size: 30px 30px, 30px 30px, 293px 232px, 188px 191px, 236px 557px, 538px 538px;
             background-size: 30px 30px, 30px 30px, 293px 232px, 188px 191px, 236px 557px, 538px 538px;
     background-color: #FFB8CA;
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .container-background {
+    background-image: url(../img/Ellipse1D@2x.png), url(../img/Ellipse1D@2x.png), url(../img/slider-pic4D@2x.png), url(../img/slider-pic5.1D@2x.png), url(../img/slider-pic7D@2x.png), url(../img/ellipse3D@2x.png);
   }
 }
 
@@ -1109,12 +1128,12 @@ a {
 
 .product-icecream {
   display: block;
-  background-image: url(../img/home-pic.png), url(../img/fon-pink.png);
-  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 767px) {
   .product-icecream {
+    background-image: url(../img/home-pic.png), url(../img/fon-pink.png);
+    background-repeat: no-repeat;
     background-position: 50% 31px, 50% 144px;
     -webkit-background-size: 252px 249px, 280px 485px;
             background-size: 252px 249px, 280px 485px;
@@ -1123,8 +1142,22 @@ a {
   }
 }
 
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .product-icecream {
+    background-image: url(../img/home-pic@2x.png), url(../img/fon-@2x.png);
+  }
+}
+
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 3), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .product-icecream {
+    background-image: url(../img/home-pic@3x.png), url(../img/fon-@2x.png);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .product-icecream {
+    background-image: url(../img/home-picT.png), url(../img/fon-pink1T.png);
+    background-repeat: no-repeat;
     -webkit-background-size: 224px 220px, 220px 485px;
             background-size: 224px 220px, 220px 485px;
     height: 635px;
@@ -1133,25 +1166,39 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .product-icecream {
+    background-image: url(../img/home-picT@2x.png), url(../img/fon-pink1T@2x.png);
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .product-icecream {
+    background-image: url(../img/home-picD.png), url(../img/fon-pink1D.png);
+    background-repeat: no-repeat;
     -webkit-background-size: 335px 335px, 329px 525px;
             background-size: 335px 335px, 329px 525px;
     background-position: 50% 0px, 50% 210px;
     height: 736px;
     padding-top: 373px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .product-icecream {
+    background-image: url(../img/home-picD@2x.png), url(../img/fon-pink1D@2x.png);
   }
 }
 
 .product-icecoffee {
   display: block;
-  background-image: url(../img/home-pic1.png), url(../img/fon-2.png);
-  background-repeat: no-repeat;
-  background-position: 50% 31px, 50% 144px;
 }
 
 @media screen and (max-width: 767px) {
   .product-icecoffee {
+    background-image: url(../img/home-pic1.png), url(../img/fon-2.png);
+    background-position: 50% 31px, 50% 144px;
+    background-repeat: no-repeat;
     -webkit-background-size: 252px 249px, 280px 485px;
             background-size: 252px 249px, 280px 485px;
     height: 635px;
@@ -1159,8 +1206,22 @@ a {
   }
 }
 
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .product-icecoffee {
+    background-image: url(../img/home-pic1@2x.png), url(../img/fon-2@2x.png);
+  }
+}
+
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 3), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .product-icecoffee {
+    background-image: url(../img/home-pic1@3x.png), url(../img/fon-2@2x.png);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .product-icecoffee {
+    background-image: url(../img/home-pic1T.png), url(../img/fon-2T.png);
+    background-repeat: no-repeat;
     -webkit-background-size: 224px 220px, 220px 485px;
             background-size: 224px 220px, 220px 485px;
     height: 635px;
@@ -1169,8 +1230,16 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .product-icecoffee {
+    background-image: url(../img/home-pic2T@2x.png), url(../img/fon-2T@2x.png);
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .product-icecoffee {
+    background-image: url(../img/home-pic2D.png), url(../img/fon-2D.png);
+    background-repeat: no-repeat;
     -webkit-background-size: 335px 335px, 329px 525px;
             background-size: 335px 335px, 329px 525px;
     background-position: 50% 0px, 50% 210px;
@@ -1179,14 +1248,20 @@ a {
   }
 }
 
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .product-icecoffee {
+    background-image: url(../img/home-pic2D@2x.png), url(../img/fon-2D@2x.png);
+  }
+}
+
 .product-milkshakes {
   display: block;
-  background-image: url(../img/home-pic2.png), url(../img/fon-3.png);
-  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 767px) {
   .product-milkshakes {
+    background-image: url(../img/home-pic2.png), url(../img/fon-3.png);
+    background-repeat: no-repeat;
     -webkit-background-size: 252px 249px, 280px 485px;
             background-size: 252px 249px, 280px 485px;
     height: 635px;
@@ -1195,8 +1270,22 @@ a {
   }
 }
 
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .product-milkshakes {
+    background-image: url(../img/home-pic2@2x.png), url(../img/fon-3@2x.png);
+  }
+}
+
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 3), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .product-milkshakes {
+    background-image: url(../img/home-pic2@3x.png), url(../img/fon-3@2x.png);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .product-milkshakes {
+    background-image: url(../img/home-pic3T.png), url(../img/fon-3T.png);
+    background-repeat: no-repeat;
     -webkit-background-size: 220px 226px, 220px 485px;
             background-size: 220px 226px, 220px 485px;
     height: 635px;
@@ -1205,13 +1294,27 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .product-milkshakes {
+    background-image: url(../img/home-pic3T@2x.png), url(../img/fon-3T@2x.png);
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .product-milkshakes {
+    background-image: url(../img/home-pic3D.png), url(../img/fon-3D.png);
+    background-repeat: no-repeat;
     -webkit-background-size: 335px 335px, 329px 525px;
             background-size: 335px 335px, 329px 525px;
     background-position: 50% 0px, 50% 210px;
     height: 736px;
     padding-top: 373px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .product-milkshakes {
+    background-image: url(../img/home-pic3D@2x.png), url(../img/fon-3D@2x.png);
   }
 }
 
@@ -1420,6 +1523,34 @@ a {
     -webkit-background-size: contain;
             background-size: contain;
     background-position: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-o-min-device-pixel-ratio: 2/1), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .tradition-background {
+    background-image: url(../img/milk@2x.png);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tradition-background {
+    background-image: url(../img/milk.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+            background-size: contain;
+    background-position: 0px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .tradition-background {
+    background-image: url(../img/milk@2x.png);
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 3), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .tradition-background {
+    background-image: url(../img/milk@3x.png);
   }
 }
 

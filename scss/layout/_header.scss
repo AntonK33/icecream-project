@@ -7,16 +7,10 @@
 }
   
 @media screen and(min-width:768px){
-  
-  background-image: url(../img/slider-pic5.1.png) , url(../img/slider-pic7.png) ,  url(../img/ellipse3.png);    
-  background-position: 430px 63px, 360px  31px;   
-  background-repeat: no-repeat;
-   background-size: 171px 410px,324px 322px;
-   background-color: #FFB8CA;
+  background-color: #FFB8CA;
+ 
 } 
-@media screen and(min-width:1280px){
 
-}
 }
 .mobile-container-position{
   position: relative;
@@ -322,7 +316,21 @@ margin-left: auto;
     background-position: 127px 117px, 50px 103px;
     background-repeat: no-repeat;
     background-size: 171px 410px, 300px 344px;
-
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: url(../img/slider-pic7.1@2x.png),
+          url(../img/ellipse3@2x.png);
+         
+      }
+            @media screen and (min-device-pixel-ratio: 3),
+                        (min-resolution: 192dpi),
+                        (min-resolution: 2dppx)
+             {
+              background-image: url(../img/slider-pic7.1@3x.png),
+                url(../img/ellipse3@2x.png);
+      
+            }
 
   }
 
@@ -330,23 +338,45 @@ margin-left: auto;
     height: 100wh;
     
     padding-bottom: 51px;
-    background-image:url(../img/Ellipse1.png),url(../img/Ellipse1.png),url(../img/slider-pic4.1.png), url(../img/slider-pic5.1.png), url(../img/slider-pic7.png), url(../img/ellipse3.png);
+    background-image:url(../img/Ellipse1T.png),url(../img/Ellipse1T.png),url(../img/slider-pic4T.png), url(../img/slider-pic5.1T.png), url(../img/slider-pic7T.png), url(../img/ellipse3T.png);
     background-position:718px 151px, 718px 94px, 566px 266px, 34px 245px, 378px 63px, 307px 31px;
     background-repeat: no-repeat;
     background-size:16px 16px,16px 16px,168px 133px, 124px 126px, 143px 336px, 324px 322px;
     background-color: #FFB8CA;
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: url(../img/Ellipse1T@2x.png),
+          url(../img/Ellipse1T@2x.png),
+          url(../img/slider-pic4T@2x.png),
+          url(../img/slider-pic5.1T@2x.png),
+          url(../img/slider-pic7T@2x.png),
+          url(../img/ellipse3T@2x.png);
+      }
   }
 
   @media screen and(min-width:1280px) {
     height: 100wh;
     
       padding-bottom: 83px;
-      background-image: url(../img/Ellipse1.png), url(../img/Ellipse1.png), url(../img/slider-pic4.1.png), url(../img/slider-pic5.1.png), url(../img/slider-pic7.png), url(../img/ellipse3.png);
+      background-image: url(../img/Ellipse1D.png), url(../img/Ellipse1D.png), url(../img/slider-pic4D.png), url(../img/slider-pic5.1D.png), url(../img/slider-pic7D.png), url(../img/ellipse3D.png);
       background-position: 1070px 155px, 1070px 240px, 832px 433px, 77px 429px, 548px 108px, 429px 52px;
       background-repeat: no-repeat;
       background-size: 30px 30px, 30px 30px, 293px 232px, 188px 191px, 236px 557px, 538px 538px;
       background-color: #FFB8CA;
+      @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+          background-image: url(../img/Ellipse1D@2x.png),
+            url(../img/Ellipse1D@2x.png),
+            url(../img/slider-pic4D@2x.png),
+            url(../img/slider-pic5.1D@2x.png),
+            url(../img/slider-pic7D@2x.png),
+            url(../img/ellipse3D@2x.png);
+      
+        }
   }
+    
 }
 
 .hero-box {

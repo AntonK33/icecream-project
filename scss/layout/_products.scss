@@ -97,95 +97,175 @@
    
     display: block;
           
-
-    background-image: url(../img/home-pic.png), url(../img/fon-pink.png);
-    background-repeat: no-repeat;
+   
 
 @media screen and(max-width:767px){
+    background-image: url(../img/home-pic.png), url(../img/fon-pink.png);
+        background-repeat: no-repeat;
     background-position: 50% 31px, 50% 144px;
     background-size: 252px 249px, 280px 485px;
     height: 635px;
     padding-top: 300px;
+    @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../img/home-pic@2x.png),
+                url(../img/fon-@2x.png);               
+        }
+                @media screen and (min-device-pixel-ratio: 3),
+                                (min-resolution: 192dpi),
+                                (min-resolution: 2dppx)
+                {
+                    background-image: url(../img/home-pic@3x.png),
+                        url(../img/fon-@2x.png);
+                }
 }
   
 @media screen and(min-width:768px){
+    background-image: url(../img/home-picT.png), url(../img/fon-pink1T.png);
+        background-repeat: no-repeat;
     background-size: 224px 220px, 220px 485px;
     height: 635px;
     padding-top: 300px;
     background-position: 50% 43px, 50% 144px;
+    @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../img/home-picT@2x.png),
+                url(../img/fon-pink1T@2x.png);
+        }
 } 
 @media screen and(min-width:1280px){
-
-    background-size: 335px 335px, 329px 525px;
-    background-position: 50% 0px, 50% 210px;
-    height: 736px;
-    padding-top: 373px;
+        background-image: url(../img/home-picD.png), url(../img/fon-pink1D.png);
+        background-repeat: no-repeat;
+        background-size: 335px 335px, 329px 525px;
+        background-position: 50% 0px, 50% 210px;
+        height: 736px;
+        padding-top: 373px;
+    @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image:url(../img/home-picD@2x.png),
+                url(../img/fon-pink1D@2x.png);
+   
 }
 
-
+}
 }
 
 .product-icecoffee {
     display: block;
 
 
-
-
-    background-image: url(../img/home-pic1.png), url(../img/fon-2.png);
-
-    background-repeat: no-repeat;
-    background-position: 50% 31px, 50% 144px;
-
+      
     @media screen and(max-width:767px) {
+        background-image: url(../img/home-pic1.png), url(../img/fon-2.png);
+        background-position: 50% 31px, 50% 144px;
+            background-repeat: no-repeat;
         background-size: 252px 249px, 280px 485px;
         height: 635px;
         padding-top: 300px;
+        @media screen and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(../img/home-pic1@2x.png),
+                    url(../img/fon-2@2x.png);
+            }
+                        @media screen and (min-device-pixel-ratio: 3),
+                                                (min-resolution: 192dpi),
+                                                (min-resolution: 2dppx)
+                        {
+                            background-image: url(../img/home-pic1@3x.png),
+                                url(../img/fon-2@2x.png);
+                        }
     }
 
     @media screen and(min-width:768px) {
+        background-image: url(../img/home-pic1T.png), url(../img/fon-2T.png);
+        
+            background-repeat: no-repeat;
         background-size: 224px 220px, 220px 485px;
         height: 635px;
         padding-top: 300px;
         background-position: 50% 43px, 50% 144px;
+        @media screen and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(../img/home-pic2T@2x.png),
+                    url(../img/fon-2T@2x.png);
+            }
     }
 
     @media screen and(min-width:1280px) {
+        background-image:url(../img/home-pic2D.png), url(../img/fon-2D.png);
+        
+            background-repeat: no-repeat;
         background-size: 335px 335px, 329px 525px;
         background-position: 50% 0px, 50% 210px;
         height: 736px;
         padding-top: 373px;
+        @media screen and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(../img/home-pic2D@2x.png),
+                    url(../img/fon-2D@2x.png);
     }
 }
-
+}
 .product-milkshakes {
     display: block;
 
-
-
-
-    background-image: url(../img/home-pic2.png), url(../img/fon-3.png);
-    background-repeat: no-repeat;
-    
-
+      
     @media screen and(max-width:767px) {
+        background-image: url(../img/home-pic2.png), url(../img/fon-3.png);
+            background-repeat: no-repeat;
         background-size: 252px 249px, 280px 485px;
         height: 635px;
         padding-top: 300px;
         background-position: 50% 31px, 50% 144px;
+        @media screen and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(../img/home-pic2@2x.png),
+                    url(../img/fon-3@2x.png);
+            }
+                         @media screen and (min-device-pixel-ratio: 3),
+                                                 (min-resolution: 192dpi),
+                                                 (min-resolution: 2dppx)
+                        {
+                             background-image: url(../img/home-pic2@3x.png),
+                                 url(../img/fon-3@2x.png);
+                         }
     }
 
     @media screen and(min-width:768px) {
+        background-image: url(../img/home-pic3T.png), url(../img/fon-3T.png);
+            background-repeat: no-repeat;
         background-size: 220px 226px, 220px 485px;
         height: 635px;
         padding-top: 300px;
         background-position: 50% 43px, 50% 144px;
+        @media screen and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(../img/home-pic3T@2x.png),
+                    url(../img/fon-3T@2x.png);
+            }
     }
 
     @media screen and(min-width:1280px) {
+        background-image: url(../img/home-pic3D.png), url(../img/fon-3D.png);
+            background-repeat: no-repeat;
         background-size: 335px 335px, 329px 525px;
         background-position: 50% 0px, 50% 210px;
         height: 736px;
         padding-top: 373px;
+        @media screen and (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(../img/home-pic3D@2x.png),
+                    url(../img/fon-3D@2x.png);
+            }
     }
 }
 
@@ -343,3 +423,4 @@ color: #FFFFFF;
         @media screen and(min-width:1280px) {}
     
 }
+
